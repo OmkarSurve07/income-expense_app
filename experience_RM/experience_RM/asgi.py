@@ -1,5 +1,5 @@
 """
-ASGI config for expiriance_RM project.
+ASGI config for experience_RM project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'expiriance_RM.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'experience_RM.settings')
 
 application = get_asgi_application()
